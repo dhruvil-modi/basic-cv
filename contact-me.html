@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h3>Tell Me About Yourself</h3>
+    <hr>
+    <form action="mailto:dhruvillmodi@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Your Name:</label></td>
+                <td><input name="yourName" type="text" placeholder="Enter Your Name" is required><br></td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+                <td><label>Your Email Id:</label></td>
+                <td><input name="yourEmail" type="email" placeholder="Enter Your Email ID" is required></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth:</label></td>
+                <td><input name="yourDob" type="date" is required></td>
+            </tr>
+            <tr>
+                <td><label>Your Gender:</label></td>
+                <td><input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label>Your City:</label></td>
+                <td>
+                    <select name="yourCity">
+                        <option>Ahmedabad</option>
+                        <option>Vadodara</option>
+                        <option>Surat</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Your Attachment:</label></td>
+                <td><input name="yourAttachment" type="file" is required></td>
+            </tr>
+            <tr>
+                <td><label>Your Message:</label></td>
+                <td><textarea name="yourMessage" placeholder="Enter Your Message..."></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Create Your Password:</label></td>
+                <td><input type="password" is required></td>
+            </tr>
+        </table>
+        <input type="checkbox" is required> I accept the terms & Conditions<br>
+        <input type="submit" is required>
+    </form>
+</body>
+
+</html>
